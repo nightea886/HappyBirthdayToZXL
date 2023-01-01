@@ -102,17 +102,17 @@ let textone = document.querySelector('.textone').querySelector('h3');
       let textthree = document.querySelector('.textthree').querySelector('h3');
 
       setTimeout(function(){
-        textone.innerHTML = '今晚，整片星空将为你一人闪烁';
+        textone.innerHTML = '今晚，整片星空';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
-          texttwo.innerHTML = '生日快乐';
+          texttwo.innerHTML = '将为你一人闪烁';
           texttwo.style.color = '#E8F9FD';
           texttwo.style.fontFamily = '楷体'
           textthree.style.color = '#E8F9FD';
           textthree.style.fontFamily = '楷体'
       },28000)
       setTimeout(function(){
-        textone.innerHTML = '从前从前,有个人爱你很久';
+        textone.innerHTML = '从前,有个人爱你很久';
         texttwo.innerHTML = '但偏偏，风渐渐';
         textthree.innerHTML = '把距离吹的好远';
       },112500)
