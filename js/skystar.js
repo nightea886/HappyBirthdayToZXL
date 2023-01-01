@@ -5,12 +5,12 @@ var words=[
     '当年明月在',
     '曾照彩云归',
     '归去来兮',
-    '真堪偕隐',
+    '生日快乐',
     '画船听雨眠',
     '生日快乐',
-    '与君重逢',
+    '生日快乐',
     '一日不见兮',
-    '思之若狂',
+    '生日快乐',
     '好想回到那个夏天',
     '趴在桌子上偷偷看你',
     '偷偷表白❤',
@@ -26,15 +26,15 @@ var words=[
     '我余光中都是你',
     '人生自是有情痴',
     '此恨不关风与月',
-    '因为你，我多少适应了这个世界',
+    '因为你我多少适应了这个世界',
     '春蚕到死丝方尽',
     '蜡炬成灰泪始干',
-    '今夜何夕',
-    '见此良人',
+    '生日快乐',
+    '生日快乐',
     '愿我如星君如月',
     '夜夜流光相皎洁',
-    '情不所起',
-    '一往而深',
+    '生日快乐',
+    '偷偷表白❤',
     '玲珑骰子安红豆',
     '入骨相思知不知',
     '多情只有春庭月',
@@ -44,21 +44,21 @@ var words=[
     '休言半纸无多重',
     '万斛离愁尽耐担',
     '夜月一帘幽梦',
-    '和光同尘',
-    '杳霭流玉',
-    '月落星沉',
-    '霞姿月韵',
-    '喜上眉梢',
+    '生日快乐',
+    '生日快乐',
+    '生日快乐',
+    '生日快乐',
+    '生日快乐',
     '醉后不知天在水',
     '满船星梦压星河',
-    '落花人独立',
-    '微雨燕双飞',
+    '生日快乐',
+    '生日快乐',
     '掬水月在手',
     '弄花香满衣',
     '夜深忽梦少年事',
     '唯梦闲人不梦君',
-    '垆边人似月',
-    '皓腕凝霜雪',
+    '生日快乐',
+    '生日快乐',
     '众里嫣然通一顾',
     '人间颜色如尘土',
     '若非群玉山头见',
@@ -97,19 +97,19 @@ function init(){
     container.appendChild(f);
 }
 window.addEventListener('load',init);
-let textone = document.querySelector('.textone').querySelector('h1');
-      let texttwo = document.querySelector('.texttwo').querySelector('h1');
-      let textthree = document.querySelector('.textthree').querySelector('h1');
+let textone = document.querySelector('.textone').querySelector('h3');
+      let texttwo = document.querySelector('.texttwo').querySelector('h3');
+      let textthree = document.querySelector('.textthree').querySelector('h3');
 
       setTimeout(function(){
         textone.innerHTML = '今晚，整片星空将为你一人闪烁';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
+          texttwo.innerHTML = '生日快乐';
           texttwo.style.color = '#E8F9FD';
           texttwo.style.fontFamily = '楷体'
           textthree.style.color = '#E8F9FD';
           textthree.style.fontFamily = '楷体'
-          texttwo.innerHTML = '生日快乐!';
       },28000)
       setTimeout(function(){
         textone.innerHTML = '从前从前,有个人爱你很久';
